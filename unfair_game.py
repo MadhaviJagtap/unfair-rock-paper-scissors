@@ -10,13 +10,13 @@ comp = []
 
 if user == 0:
     print("\nYou chose Rock!\n", a.rock)
-    comp = 0
+    comp = 1
 elif user == 1:
     print("\nYou chose Paper!\n", a.paper)
     comp = 2
 elif user == 2:
     print("\nYou chose Scissors!\n", a.scissors)
-    comp = 1
+    comp = 0
 else:
     print("Enter valid input")
 
