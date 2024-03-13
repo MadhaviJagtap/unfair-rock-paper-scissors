@@ -25,20 +25,14 @@ if comp == 0:
     print("\nRock!\n", a.rock)
 elif comp == 1:
     print("\nPaper!\n", a.paper)
-elif comp == 2:
+else
     print("\nScissors!\n", a.scissors)
-else:
-    print("Enter valid input")
 
 # rock 0
 # paper 1
 # scissors 2
 
-if user == "0" and comp == "2":
-    print("You win!")
-elif user == "2" and comp == "1":
-    print("You win!")
-elif user == "1" and comp == "0":
-    print("You win!")
-else:
+if user != comp:
     print("You lose!")
+else:
+    print("You win!")
